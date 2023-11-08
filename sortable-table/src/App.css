@@ -1,0 +1,58 @@
+.orders-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders-table th,
+.orders-table td {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.orders-table th {
+  background-color: #f2f2f2;
+}
+
+.orders-table input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+.orders-table button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.orders-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.orders-table .pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orders-table .pagination button {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+.orders-table .pagination button:hover {
+  background-color: #eee;
+}
+.orders-table .pagination button:active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.orders-table .active,
+.orders-table .active:hover {
+  background-color: #007bff;
+  color: #fff;
+}
