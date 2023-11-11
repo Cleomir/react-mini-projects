@@ -123,7 +123,6 @@ export const OrdersTable: React.FC = () => {
   };
 
   const filteredOrders = orders.filter((order) => {
-    console.log("Filtering order with state: ", searchTerm);
     const searchTermLowerCase = searchTerm.toLowerCase();
 
     return (
